@@ -1,0 +1,74 @@
+.aboutus-body {
+  width: 100wh;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus-container {
+  margin: 4.71rem;
+  display: flex;
+}
+
+.emptyimage {
+  background: #D9D9D9;
+  width: 25.45456rem;
+  height: 26.15156rem;
+  flex-shrink: 0;
+  margin-right: 4.71rem;
+}
+
+.aboutus-content {
+  text-align: left;
+  position: relative;
+}
+
+.aboutus-xcaption {
+  color: rgba(0, 0, 0, 0.70);
+  font-family: Roboto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.aboutus-mcaption {
+  color: rgba(0, 0, 0, 0.66);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutus-caption {
+  color: rgba(0, 0, 0, 0.66);
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutus-btn{
+  background-color: #4E96BE;
+  color: white;
+  border: none;
+
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 30px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}
+
+.gap {
+  margin-top: 1.63rem;
+  margin-bottom: 1.69rem;
+}
