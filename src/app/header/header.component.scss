@@ -1,0 +1,89 @@
+.header-body {
+    width: 100wh;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/header.png');
+
+}
+
+.pagemenu {
+    position: absolute;
+    left: 40%;
+    top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    left: 15%;
+    top: 4rem;
+}
+
+.header-xcaption {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-caption {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-subject {
+    position: absolute;
+    left: calc(15% + 50px);
+    top: 20rem;
+}
+
+.header-btn{
+    background-color: #4E96BE;
+    color: white;
+    width: 100px;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 24px;
+}
+
+.header-btn-selected{
+    background-color: white;
+    color: black;
+    width: 100px;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 24px;
+}
+
+.header-btn-underline{
+    background-color: #4E96BE;
+    color: white;
+    width: 100px;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    padding: 12px 24px;
+}

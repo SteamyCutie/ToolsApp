@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0px;
+}
+
+.normalbtn {
+    background-color: #4E96BE;
+    color: white;
+    width: 100px;
+    height: 30px;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
