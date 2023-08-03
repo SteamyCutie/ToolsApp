@@ -1,8 +1,15 @@
 <div>
-  <app-header></app-header>
-  <app-aboutus></app-aboutus>
-  <app-testimonial></app-testimonial>
-  <app-feature></app-feature>
+  <ng-container *ngIf="this.pageString === 'Home'">
+    <app-header></app-header>
+    <app-aboutus></app-aboutus>
+    <app-testimonial></app-testimonial>
+    <app-feature></app-feature>
+  </ng-container>
+  <ng-container *ngIf="this.pageString === 'Explore'">
+    <app-header [type]="this.pageString"></app-header>
+    <app-imagetools></app-imagetools>
+    <app-codingtools></app-codingtools>
+  </ng-container>
   <app-contactus></app-contactus>
   <app-footer></app-footer>
 </div>
