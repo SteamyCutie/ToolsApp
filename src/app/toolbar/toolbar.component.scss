@@ -1,0 +1,62 @@
+.toolbar-body {
+    width: 100wh;
+    background: #F1F1F1;
+    padding-top: 1.87rem;
+    padding-bottom: 2.81rem;
+}
+
+.toolbar-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.toolbar-btn {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.44rem 4rem;
+}
+
+.toolbar-group {
+    display: flex;
+    justify-content: center;
+}
+
+.color-creater {
+    background: #E4A264;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.color-developer {
+  background: #41B0C9;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.color-images {
+  background: #E4D864;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.color-coding {
+  background: #4167C9;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

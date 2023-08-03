@@ -1,20 +1,26 @@
 <div class="header-body" [style.height.rem]="type === 'Explore' ? 17.625 : 52">
   <img src="../../assets/images/logo.png" class="logo" />
   <div class="pagemenu">
-    <div
-      [class]="type === 'Home' ? 'header-btn-selected' : 'header-btn-underline'"
+    <a
+      (click)="updateType('Home')"
+      [class]="
+        this.type === 'Home' ? 'header-btn-selected' : 'header-btn-underline'
+      "
+      href="#"
     >
       Home
-    </div>
-    <div
+    </a>
+    <a
+      (click)="updateType('Explore')"
       [class]="
-        type === 'Explore' ? 'header-btn-selected' : 'header-btn-underline'
+        this.type === 'Explore' ? 'header-btn-selected' : 'header-btn-underline'
       "
+      href="#"
     >
       Explore
-    </div>
-    <div class="header-btn">Register</div>
-    <div class="header-btn">Sign in</div>
+    </a>
+    <a class="header-btn" href="#">Register</a>
+    <a class="header-btn" href="#">Sign in</a>
   </div>
   <div class="header-subject" *ngIf="this.type != 'Explore'">
     <div class="header-xcaption">Tools</div>

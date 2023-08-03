@@ -1,12 +1,13 @@
 <div>
-  <ng-container *ngIf="this.pageString === 'Home'">
+  <ng-container *ngIf="this.service.getType() === 'Home'">
     <app-header></app-header>
     <app-aboutus></app-aboutus>
     <app-testimonial></app-testimonial>
     <app-feature></app-feature>
   </ng-container>
-  <ng-container *ngIf="this.pageString === 'Explore'">
-    <app-header [type]="this.pageString"></app-header>
+  <ng-container *ngIf="this.service.getType() === 'Explore'">
+    <app-header></app-header>
+    <app-toolbar></app-toolbar>
     <app-imagetools></app-imagetools>
     <app-codingtools></app-codingtools>
   </ng-container>

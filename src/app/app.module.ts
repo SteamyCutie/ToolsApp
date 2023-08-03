@@ -11,6 +11,7 @@ import { FeatureComponent } from './feature/feature.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ImagetoolsComponent } from './imagetools/imagetools.component';
 import { CodingtoolsComponent } from './codingtools/codingtools.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CodingtoolsComponent } from './codingtools/codingtools.component';
     FeatureComponent,
     AboutusComponent,
     ImagetoolsComponent,
-    CodingtoolsComponent
+    CodingtoolsComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

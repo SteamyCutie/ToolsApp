@@ -1,4 +1,5 @@
 import { Input, Component } from '@angular/core';
+import { UrlServiceService } from '../url-service.service';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +8,16 @@ import { Input, Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-  @Input() type: string | undefined;
+
+  type: string | undefined;
+
+  constructor(private service: UrlServiceService) {
+    this.type = this.service.getType();
+  }
+
+  updateType(type: string): void {
+    this.service.setType(type);
+    this.type = type;
+  }
+
 }
