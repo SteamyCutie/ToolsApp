@@ -13,6 +13,9 @@
 
 .contactus-section {
   display: block;
+  text-align: left;
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
 
 .contactus-mcaption {
@@ -31,4 +34,75 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.contactus-input-textarea {
+  width: 25.3125rem;
+  height: 9.625rem;
+  margin-top: 0.875rem;
+  margin-bottom: 2.19rem;
+
+  color: #6D6A6A;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactus-input-textarea::placeholder{
+    position: absolute;
+    top: 0;
+    left: 1;
+    color: gray;
+}
+
+.cotnactus-input-text {
+  width: 18.75rem;
+  height: 2.25rem;
+  margin-top: 0.875rem;
+  margin-bottom: 0.875rem;
+  
+  color: #6D6A6A;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactus-btn {
+  background: #363434;
+  width: 12.3125rem;
+  height: 4rem;
+  border: none;
+
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.svg {
+  margin: 1.05rem;
+  vertical-align: middle;
+}
+
+.gap {
+  margin-bottom: 4.56rem;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 1.75rem;
+}
+
+.underline {
+  text-decoration: underline;
 }
